@@ -125,6 +125,7 @@ currentImageWillChange  | func          | undefined     | Optional. Function to 
 showLightboxThumbnails  | bool          | false         | Optional. Display thumbnails beneath the Lightbox image.
 onClickLightboxThumbnail | func         | gotoImage     | Optional. Function to execute when lightbox thumbnail clicked. Overrides internal function: gotoImage.
 lightboxWidth 	        | number 	| 1024 	        | Optional. Maximum width of the lightbox carousel; defaults to 1024px.
+lightBoxProps 	        | object 	| undefined 	        | Optional. Object to pass props directly to LightBox.
 
 
 ### General Notes
@@ -204,6 +205,8 @@ React Grid Gallery is free to use for personal and commercial projects under the
 * [pxpeterxu](https://github.com/pxpeterxu) for adding functionality to inject a custom thumbnail image component (for lazy-loading) [PR 104](https://github.com/benhowell/react-grid-gallery/pull/104).
 
 * [lryta](https://github.com/lryta) for fixing crash when this.props.images.length - 1 < this.state.currentImage [PR #111](https://github.com/benhowell/react-grid-gallery/pull/111).
+
+* [jimishf](https://github.com/JimishF) for lightBoxProps option to assign any prop directly to lightbox [PR #121](https://github.com/benhowell/react-grid-gallery/pull/121).
 
 
  * Demo stock photos:
